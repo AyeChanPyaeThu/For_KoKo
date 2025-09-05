@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
-import { AiOutlineCloseCircle } from "react-icons/ai";
 import { FaWindowClose } from "react-icons/fa";
 import { useAuth } from "./AuthContext";
 import "./Login.css";
