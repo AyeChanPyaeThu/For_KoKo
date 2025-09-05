@@ -30,7 +30,8 @@ function Login() {
 
   const handleClose = () => {
     setError("");
-    window.location.reload();
+    setUName("");
+    setPassword("");
   };
 
   const handleHint = () => {
