@@ -1,0 +1,78 @@
+/* @font-face {
+  font-family: Burmese Handwriting;
+  src: url("./fonts/Burmese_Handwriting.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Myanmar Gantgaw;
+  src: url("./fonts/KantKaw.ttf") format("truetype");
+  font-weight: normal;
+} */
+
+@font-face {
+  font-family: "BurmeseHandwriting";
+  src: url("/fonts/Burmese-Handwriting.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyanmarGantgaw";
+  src: url("/fonts/Gantgaw.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyanmarJojarPro";
+  src: url("/fonts/Jojar.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyanmarPauklay";
+  src: url("/fonts/MyanmarPauklay.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yangon";
+  src: url("/fonts/Yangon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Z01-Umoe002";
+  src: url("/fonts/Z01-Umoe002.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MasterpieceYayChanZin";
+  src: url("/fonts/YayChanZin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+//default burmese font
+@theme {
+  --font-burmese: "BurmeseHandwriting", sans-serif;
+  --font-kantkaw: "MyanmarGantgaw", sans-serif;
+  --font-jojar: "MyanmarJojarPro", sans-serif;
+  --font-pauklay: "MyanmarPauklay", sans-serif;
+  --font-umoe: "Z01-Umoe002", sans-serif;
+  --font-yangon: "Yangon", sans-serif;
+  --font-yaychanzin: "MasterpieceYayChanZin", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right top, #b2fefa, #0ed2f7);
+  /* background: red; */
+}

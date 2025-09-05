@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BurmeseHandwriting";
+  src: url("/fonts/Burmese-Handwriting.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-burmese: "BurmeseHandwriting", san-serif;
+  --font-rib: "Ribeye", sans-serif;
+}
+
+.modak {
+  font-family: "Modak", system-ui;
+  /* font-weight: 200; */
+  font-style: normal;
+}

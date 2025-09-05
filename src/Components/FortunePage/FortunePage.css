@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BurmeseHandwriting";
+  src: url("/fonts/Burmese-Handwriting.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ribeye";
+  src: url("/fonts/Ribeye.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-burmese: "BurmeseHandwriting", san-serif;
+  --font-rib: "Ribeye", sans-serif;
+}
