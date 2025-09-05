@@ -95,7 +95,10 @@ function Login() {
                 "My favourite pronoun"{" "}
                 <span className="text-sm text-pink-300">( 4 characters )</span>
               </p>
-              <span className=" text-xl cursor-pointer" onClick={handleClose}>
+              <span
+                className=" text-xl cursor-pointer"
+                onClick={() => setHint(false)}
+              >
                 <FaWindowClose />
               </span>
             </div>
